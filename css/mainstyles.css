@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Arimo', serif;
+  background-color: rgba(0, 0, 25, 0.3);
+  font-size: 16px; /* 16px is the standard font size */
+  line-height: 1.5; /* 1.5 times the size of the font */
+  color: black;
+}
+
+
+/******************************************************
+*******************************************************
+2. Header & article styles
+*******************************************************
+******************************************************/
+
+/* Header */
+header, article {
+  max-width: 720px;
+  padding: 20px;
+  margin: auto;
+}
+
+
+
+h1, h2 {
+  font-family: 'Cinzel', sans-serif;
+  margin:20;
+  padding:10;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*header h3 byline*/
+ .author {
+   font-size: 18px;
+   font-weight: 400;
+   padding-bottom: 40px;
+   /* added space in the bottom with padding */
+ }
+
+ /*header h3 a byline link*/
+ .author a {
+   color: black;
+   text-decoration: color;
+ }
+
+ a:hover {
+   color: white;
+}
+
+blockquote {
+  font-family: "Patua One";
+  font-size: 24px;
+  border-top: black 6px solid;
+}
+
+figure {
+  display: block;
+}
+
+image {
+  text-align:center;
+  max-width: 100%;
+  height: auto;
+}
+
+ .img-wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .img-wrapper figure {max-width: 200px;}

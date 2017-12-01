@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Arimo', serif;
+  background-color:
+  font-size: 16px; /* 16px is the standard font size */
+  line-height: 1.5; /* 1.5 times the size of the font */
+  color: black;
+}
+
+/******************************************************
+*******************************************************
+2. Header & article styles
+*******************************************************
+******************************************************/
+
+/* Header */
+header, article {
+  padding: 20px;
+  margin: auto;
+}
+
+
+article{
+  max-width: 720px;
+}
+
+header{
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #0088cc;
+}
+
+h1, h2 {
+  font-family: 'Cinzel', sans-serif;
+  margin:20;
+  padding:10;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+figure{
+  display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+figcaption {
+  font-size: 10px;
+  text-align: center;
+}
+
+/*header h3 byline*/
+ .author {
+   font-size: 18px;
+   font-weight: 400;
+   padding-bottom: 40px;
+   /* added space in the bottom with padding */
+ }
+
+ /*header h3 a byline link*/
+ .author a {
+   color: black;
+   text-decoration: color;
+ }
+
+ a:hover {
+   color: white;
+}
+
+blockquote {
+  font-family: "Patua One";
+  font-size: 24px;
+  border-top: black 6px solid;
+}
+
+img {
+  width: 100%;
+}
+
+ .img-wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .img-wrapper figure {max-width: 200px;}
+
+ iframe {
+   margin-top: 50px;
+ }
+
+ footer {
+   text-align: center;
+   border: 1px solid #000;
+   background-color:#00FF00;
+ }
