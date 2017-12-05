@@ -71,6 +71,7 @@ blockquote {
 
 figure {
   display: block;
+  align-content;
 }
 
 image {
