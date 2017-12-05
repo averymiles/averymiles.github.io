@@ -35,7 +35,7 @@ nav {
 
 article{
   max-width: 720px;
-  text-align: center;
+  align-content: center;
   padding: 50px;
   margin: 30px
 }
