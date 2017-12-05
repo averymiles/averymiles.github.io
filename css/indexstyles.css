@@ -36,6 +36,7 @@ nav {
 article{
   max-width: 720px;
   text-align: center;
+  padding: 50px;
 }
 
 header{
