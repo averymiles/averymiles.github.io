@@ -85,6 +85,11 @@ blockquote {
   border-top: black 6px solid;
 }
 
+li {
+    text-align: center;
+    border-top: 1px solid #555;
+}
+
 img {
   width: 100%;
 }
