@@ -76,6 +76,7 @@ ul{
 li {
     display: inline;
 }
+
 a {
   margin: 20px;
 }
@@ -85,7 +86,7 @@ figure{
     width: 50%;
     margin: 0 auto;
     max-width: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 figcaption {
