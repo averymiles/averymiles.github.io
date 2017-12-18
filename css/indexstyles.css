@@ -34,7 +34,7 @@ nav {
 }
 
 article{
-  max-width: 720px;
+  max-width: 400px;
   align-content: center;
   padding: 50px;
   margin: 30px
@@ -42,7 +42,7 @@ article{
 
 header{
   text-align: center;
-  border: 1px solid #000;
+  border: .5px solid #000;
   background-color: #B76EB8;
 }
 
@@ -83,11 +83,11 @@ a {
 
 figure{
   display: block;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
-    max-width: 400px;
-    margin-bottom: 20px;
-    padding: 20px;
+    max-width: 600px;
+    margin-bottom: 5px;
+    padding: 30px;
 }
 figcaption {
   font-size: 10px;
@@ -113,7 +113,7 @@ article {
  }
 
  a:hover {
-   color: white;
+   color: blue;
 }
 
 blockquote {

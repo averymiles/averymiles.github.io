@@ -98,7 +98,6 @@ blockquote {
 
 figure {
   display: block;
-  align-content: center;
   padding: 20px;
   margin: auto;
 }
@@ -113,6 +112,7 @@ image {
   text-align:center;
   max-width: 100%;
   height: auto;
+  margin-right: 200px;
 }
 
  .img-wrapper {
@@ -126,5 +126,5 @@ image {
  footer {
   text-align: center;
   border: 1px solid #000;
-  background-color: #AA0078;
+  background-color: #6D929B;
  }
