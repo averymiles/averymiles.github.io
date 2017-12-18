@@ -23,10 +23,9 @@ body {
 
 /* Header */
 header, article {
-  padding: 20px;
+  padding: 10px;
   margin: auto;
 }
-
 
 article{
   max-width: 720px;
@@ -35,7 +34,7 @@ article{
 header{
   text-align: center;
   border: 1px solid #000;
-  background-color: #814374;
+  background-color: #;
 }
 
 h1 {

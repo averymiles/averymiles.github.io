@@ -15,7 +15,6 @@ body {
   color: black;
 }
 
-
 /******************************************************
 *******************************************************
 2. Header & article styles
@@ -24,20 +23,30 @@ body {
 
 /* Header */
 header, article {
-  max-width: 720px;
   padding: 20px;
   margin: auto;
 }
 
-h1, h2 {
+article {
+  max-width: 720px;
+}
+
+h1 {
   font-family: 'Cinzel', sans-serif;
   margin:20;
   padding:10;
 }
 
+h2 {
+  font-family: Arimo;
+  font-size: 18px;
+}
+
 h3 {
-  font-size: 16px;
+  font-family: Merriweather;
+  font-size: 5px;
   font-weight: bold;
+  padding-top: 5px;
 }
 
 header {
@@ -45,6 +54,20 @@ header {
   border: 1px solid #000;
   background-color:#B3B3D7;
 }
+
+ul{
+  font-family: serif;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+li {
+    display: inline;
+}
+ a{
+   margin: 20px;
+ }
 /*header h3 byline*/
  .author {
    font-size: 18px;
@@ -75,7 +98,15 @@ blockquote {
 
 figure {
   display: block;
-  align-content;
+  align-content: center;
+  padding: 20px;
+  margin: auto;
+}
+
+figcaption{
+  font-size: 10px;
+  align: bottom;
+  margin-bottom: auto;
 }
 
 image {

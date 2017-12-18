@@ -27,7 +27,6 @@ header, article {
   margin: auto;
 }
 
-
 article{
   max-width: 720px;
 }
@@ -55,6 +54,21 @@ h3 {
   font-size: 16px;
   font-weight: bold;
 }
+
+ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+  margin: 20px;
+}
+
 
 figure{
   display: block;
@@ -115,6 +129,7 @@ img {
 
  footer {
    text-align: center;
+   padding: 5px;
    border: 1px solid #000;
    background-color:#06425C;
  }
